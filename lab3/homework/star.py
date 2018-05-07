@@ -1,10 +1,13 @@
 from turtle import *
 def draw_star(x,y,length):
+    penup()
+    setx(x)
+    sety(y)
+    pendown()
     for i in range(5):
-        setpos(x, y)
         forward(length)
         rt(144)
-
+   
 
 speed(0)
 color('blue')
