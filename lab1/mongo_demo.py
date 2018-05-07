@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+ur from pymongo import MongoClient
 # connect to database server
 uri = "mongodb://master:dkmchau123@ds155699.mlab.com:55699/c4e17"
 client = MongoClient(uri)
